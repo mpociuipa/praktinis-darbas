@@ -1,0 +1,34 @@
+$color-1: black;
+$color-2: white;
+
+$img-1: url(../app/images/banner.png);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background: $color-1;
+    color: $color-2;
+    
+    .features {
+        border-bottom: 2px solid red;
+    }
+    a {
+        text-decoration: none;
+        color:white;
+        margin: 0 5px;
+    }
+   
+
+}
+body {
+    background: $img-1;
+}
+.logo {
+    justify-content: flex-start;
+}
